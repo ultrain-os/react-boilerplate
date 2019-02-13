@@ -5,11 +5,12 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "webpack": "^4.29.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --progress",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -21,5 +22,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
 }
